@@ -1,0 +1,66 @@
+.nos-conocemos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .nos-conocemos .form-container {
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.521);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .nos-conocemos .form-container p {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.521);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+  }
+  
+  .nos-conocemos .form-container p .campos-container {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .nos-conocemos .form-container p .campos-container .btn-danger {
+    color: #ffffff;
+    background-color: #c51f1f;
+    border-color: #c51f1f;
+  }
+  
+  .nos-conocemos .mapa {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.521);
+    text-align: center;
+    padding: 27px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+  }
+  
+  .nos-conocemos h4 {
+    padding: 10px;
+    @extend %variables-de-fuente;
+  }

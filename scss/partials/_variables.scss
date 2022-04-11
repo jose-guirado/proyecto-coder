@@ -1,0 +1,27 @@
+$primary-color: #ffffff;
+$secondary-color: #a9a9a9;
+$color: red;
+
+//MAPA
+
+$variables-del-footer: (
+    d-flex: flex,
+    jc-center: center,
+    f-size: 13px,
+);
+
+//EXTEND
+
+%variables-de-fuente {
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #c51f1f;
+}
+
+//MIXIN
+
+@mixin variables-de-portada($margin, $width) {
+    margin: $margin;
+    width: $width;
+}

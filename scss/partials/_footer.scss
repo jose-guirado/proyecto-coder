@@ -1,0 +1,33 @@
+.pieDePagina {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+            font-size: map-get($variables-del-footer, f-size);
+  }
+  
+  .pieDePagina p {
+    padding-right: 5px;
+    color: #ffffff;
+  }
+  
+  .pieDePagina .redes-sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 10px;
+  }
+  
+  .pieDePagina .redes-sociales img {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

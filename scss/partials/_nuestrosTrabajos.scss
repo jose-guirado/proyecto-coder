@@ -1,0 +1,43 @@
+.galeria {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr (3);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 8px;
+  }
+  
+  .galeria h2 {
+    position: absolute;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .galeria img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .uno {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  
+  .seis {
+    grid-row: span 2;
+  }
+  
+  .siete {
+    grid-column: 2 span;
+  }
+  
+  .ocho {
+    grid-column: 3 span;
+    grid-row: 2 span;
+  }
