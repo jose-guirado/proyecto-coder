@@ -201,10 +201,21 @@ body {
 .imagen-estudio {
   background-color: #ffffff;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .card-body h2 {
   font-size: 28px;
+}
+
+.text-muted {
+  font-size: 13px;
 }
 
 .card {
@@ -269,6 +280,118 @@ body {
 .ocho {
   grid-column: 3 span;
   grid-row: 2 span;
+}
+
+.uno h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.uno:hover h2 {
+  opacity: .85;
+}
+
+.dos h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.dos:hover h2 {
+  opacity: .85;
+}
+
+.tres h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.tres:hover h2 {
+  opacity: .85;
+}
+
+.cuatro h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.cuatro:hover h2 {
+  opacity: .85;
+}
+
+.cinco h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.cinco:hover h2 {
+  opacity: .85;
+}
+
+.seis h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.seis:hover h2 {
+  opacity: .85;
+}
+
+.siete h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.siete:hover h2 {
+  opacity: .85;
+}
+
+.ocho h2 {
+  color: #fff;
+  line-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.ocho:hover h2 {
+  opacity: .85;
 }
 
 .nos-conocemos {
@@ -390,19 +513,23 @@ body {
             justify-content: right;
   }
   .pieDePagina img {
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     margin-right: 2px;
     margin-left: 2px;
   }
   .pieDePagina p {
     padding-right: 2px;
-    font-size: 14px;
+    font-size: 10px;
   }
   /*El estudio*/
-  .imagen-estudio {
+  .card-body {
+    font-size: 14px;
+  }
+  .imagen-estudio img {
     width: 100vw;
-    height: 250px;
+    height: 50px;
+    margin-left: 0;
   }
   /*Servicios*/
   .servicios {

@@ -8,8 +8,15 @@
   .imagen-estudio {
     background-color: #ffffff;
     font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .card-body h2 {
 font-size: 28px;
+  }
+
+  .text-muted {
+    font-size: 13px;
   }

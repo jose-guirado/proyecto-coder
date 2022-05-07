@@ -39,22 +39,27 @@
     }
 
     .pieDePagina img{
-        width: 6px;
-        height: 6px;
+        width: 4px;
+        height: 4px;
         margin-right: 2px;
         margin-left: 2px;
     }
 
     .pieDePagina p{
         padding-right: 2px;
-        font-size: 14px;
+        font-size: 10px;
     }
 
     /*El estudio*/
 
-    .imagen-estudio{
+    .card-body{
+        font-size: 14px;
+    }
+
+    .imagen-estudio img{
         width: 100vw;
-        height: 250px;
+        height: 50px;
+        margin-left: 0;
     }
 
     /*Servicios*/
